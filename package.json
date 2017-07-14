@@ -1,0 +1,47 @@
+{
+  "name": "image-feed",
+  "version": "0.0.1",
+  "description": "Single image per view, with prev/next/random navigator",
+  "main": "index.js",
+  "repository": "git@github.com:longlh/image-feed.git",
+  "author": "LongLH <d@dapps.me>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.82.0",
+    "bluebird": "3.5.0",
+    "body-parser": "1.17.2",
+    "bootstrap": "3.3.7",
+    "connect-redis": "3.3.0",
+    "connect-slashes": "1.3.1",
+    "download": "6.2.5",
+    "ect": "0.5.9",
+    "express": "4.15.3",
+    "express-session": "1.15.3",
+    "formidable": "1.1.1",
+    "imagemin": "5.3.1",
+    "imagemin-gifsicle": "5.1.0",
+    "imagemin-jpegtran": "5.0.2",
+    "imagemin-mozjpeg": "6.0.0",
+    "imagemin-pngquant": "5.0.1",
+    "jquery": "3.2.1",
+    "kue": "0.11.6",
+    "lodash": "4.17.4",
+    "materialize-css": "0.99.0",
+    "mime": "1.3.6",
+    "mongoose": "4.11.1",
+    "morgan": "1.8.2",
+    "passport": "0.3.2",
+    "passport-google-oauth20": "1.0.0",
+    "plupload": "2.3.2",
+    "random-int": "1.0.0",
+    "redis": "2.7.1",
+    "request": "^2.81.0",
+    "request-progress": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js --ignore node_modules --ext js"
+  }
+}
